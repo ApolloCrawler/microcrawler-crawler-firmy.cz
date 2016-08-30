@@ -1,6 +1,6 @@
 {
   "name": "microcrawler-crawler-firmy.cz",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "src/index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "processors": {
     "details": "src/details.js",
-    "index": "src/index.js"
+    "index": "src/index.js",
     "listing": "src/listing.js"
   }
 }
