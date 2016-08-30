@@ -1,6 +1,6 @@
 {
   "name": "microcrawler-crawler-firmy.cz",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "src/index.js",
   "scripts": {
@@ -20,9 +20,12 @@
     "querystring": "^0.2.0",
     "url": "^0.11.0"
   },
-  "processors": {
-    "details": "src/details.js",
-    "index": "src/index.js",
-    "listing": "src/listing.js"
+  "crawler": {
+    "url": "https://www.firmy.cz/",
+    "processors": {
+      "details": "src/details.js",
+      "index": "src/index.js",
+      "listing": "src/listing.js"
+    }
   }
 }
