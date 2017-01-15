@@ -31,7 +31,7 @@ var exports = module.exports = function($, item) {
     results.push({
       type: 'url',
       url: tmpUrl,
-      processor: 'firmy.cz.listing'
+      processor: 'firmy.cz/listing'
     });
   });
 
